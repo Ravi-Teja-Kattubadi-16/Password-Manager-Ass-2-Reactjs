@@ -1,0 +1,30 @@
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-passwords-image {
+  width: 300px;
+  height: 230px;
+}
+@media (min-width: 768px) {
+  .no-passwords-image {
+    width: 350px;
+    height: 250px;
+  }
+}
+.no-passwords-text {
+  font-size: 23px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .no-passwords-text {
+    font-size: 21px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-weight: 700;
+  }
+}
